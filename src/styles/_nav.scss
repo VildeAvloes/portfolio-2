@@ -1,0 +1,48 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  background: $background;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2rem;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  a {
+    color: $secondary;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease, opacity 0.2s ease;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .nav {
+    gap: 2rem;
+
+    padding-top: 2.5rem;
+  }
+
+  .nav-list {
+    gap: 3rem;
+  }
+}

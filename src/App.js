@@ -1,10 +1,19 @@
-import "./App.css";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Nav from "./components/Nav";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="App">
-      <h1>HALLA</h1>
-    </div>
+    <>
+      <Nav />
+
+      <main className="main">
+        <About />
+        <Projects />
+        <Contact />
+      </main>
+    </>
   );
 }
 
