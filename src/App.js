@@ -7,11 +7,13 @@ function App() {
   return (
     <>
       <Nav />
-
       <main className="main">
         <About />
         <Projects />
         <Contact />
+        <footer className="footer">
+          <p>Designed and developed by Vilde Avløs © 2026</p>
+        </footer>
       </main>
     </>
   );

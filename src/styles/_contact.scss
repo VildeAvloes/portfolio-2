@@ -1,0 +1,14 @@
+.contact {
+  min-height: 80vh;
+
+  .text {
+    margin: 0 auto 2rem;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}

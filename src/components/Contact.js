@@ -1,17 +1,21 @@
 function Contact() {
   return (
     <section id="contact" className="contact section">
-      <p className="contact__eyebrow">Contact</p>
+      <div className="heading">
+        <p className="label">Get in touch</p>
+        <h2>Interested in working together?</h2>
+      </div>
+      <p className="text">
+        I'm always happy to connect, discuss opportunities or talk about
+        frontend development.
+      </p>
 
-      <h2>Let&apos;s connect</h2>
-
-      <p>You can find me on GitHub and LinkedIn, or reach out by email.</p>
-
-      <div className="contact__links">
+      <div className="links">
         <a
           href="https://github.com/VildeAvloes"
           target="_blank"
           rel="noreferrer"
+          className="button button-primary"
         >
           GitHub
         </a>
@@ -20,11 +24,17 @@ function Contact() {
           href="https://www.linkedin.com/in/vildeavloes/"
           target="_blank"
           rel="noreferrer"
+          className="button button-secondary"
         >
           LinkedIn
         </a>
 
-        <a href="mailto:your-email@example.com">Email</a>
+        <a
+          href="mailto:your-email@example.com"
+          className="button button-secondary"
+        >
+          Email
+        </a>
       </div>
     </section>
   );

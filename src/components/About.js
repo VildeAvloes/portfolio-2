@@ -1,14 +1,23 @@
+import profileImage from "../assets/profile-image.jpg";
+
 function About() {
   return (
     <section id="about" className="about section">
-      <p className="about__eyebrow">Frontend Developer Portfolio</p>
+      <div className="content">
+        <div className="heading">
+          <p className="label">Frontend developer portfolio</p>
+          <h1>Hi, my name is Vilde!</h1>
+        </div>
+        <img src={profileImage} alt="Vilde Avløs" className="image" />
+        <p className="text">
+          I am a frontend development student with a focus on building
+          responsive, accessible and user-friendly web applications.
+        </p>
 
-      <h1 className="about__title">Hi, I&apos;m Vilde.</h1>
-
-      <p className="about__text">
-        I am a frontend development student with a focus on building responsive,
-        accessible and user-friendly web applications.
-      </p>
+        <a href="#contact" className="button button-secondary">
+          Contact me
+        </a>
+      </div>
     </section>
   );
 }

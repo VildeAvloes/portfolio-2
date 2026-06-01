@@ -1,24 +1,33 @@
 function ProjectCard({ project }) {
   return (
-    <article className="project-card">
+    <article className="card">
       <img
         src={project.image}
         alt={`Screenshot of ${project.title}`}
-        className="project-card__image"
+        className="image"
       />
 
-      <div className="project-card__content">
+      <div className="content">
         <h3>{project.title}</h3>
         <p>{project.description}</p>
-
-        <div className="project-card__links">
-          <a href={project.github} target="_blank" rel="noreferrer">
+        <div className="links">
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noreferrer"
+            className="button button-primary"
+          >
             GitHub
           </a>
 
           {project.live && (
-            <a href={project.live} target="_blank" rel="noreferrer">
-              Live site
+            <a
+              href={project.live}
+              target="_blank"
+              rel="noreferrer"
+              className="button button-secondary"
+            >
+              Live Site
             </a>
           )}
         </div>
