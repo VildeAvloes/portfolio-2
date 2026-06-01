@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-2/static/css/main.7c4d31a2.css",
+    "main.js": "/portfolio-2/static/js/main.f8235387.js",
+    "static/media/profile-image.jpg": "/portfolio-2/static/media/profile-image.575977bedc6a0d10661a.jpg",
+    "static/media/holidaze-screenshot.jpeg": "/portfolio-2/static/media/holidaze-screenshot.dad43d761729ac172566.jpeg",
+    "static/media/bid-society-screenshot.jpg": "/portfolio-2/static/media/bid-society-screenshot.fadf18f3206638c84664.jpg",
+    "static/media/every-screenshot.jpg": "/portfolio-2/static/media/every-screenshot.4223f773016978cbaae3.jpg",
+    "index.html": "/portfolio-2/index.html",
+    "main.7c4d31a2.css.map": "/portfolio-2/static/css/main.7c4d31a2.css.map",
+    "main.f8235387.js.map": "/portfolio-2/static/js/main.f8235387.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c4d31a2.css",
+    "static/js/main.f8235387.js"
+  ]
+}
